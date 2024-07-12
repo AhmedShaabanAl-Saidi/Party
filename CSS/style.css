@@ -1,0 +1,107 @@
+/* general */
+@media (max-width: 768px) {
+    .aside-icons {
+        display: none !important;
+    }
+
+    .contact-icons {
+        margin-bottom: 1.25rem;
+    }
+
+    .count .days,
+    .count .hours,
+    .count .minutes,
+    .count .seconds {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* aside */
+aside a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .4s;
+}
+
+aside a:hover {
+    color: #D62E33;
+}
+
+aside i:hover {
+    color: #D62E33;
+    cursor: pointer;
+}
+
+.aside-icons img {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.aside-open {
+    display: none;
+}
+
+/* header */
+.header {
+    background-image: linear-gradient(rgba(220, 20, 60, .5) 0% 100%), url(./IMG/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* slider */
+.toggle {
+    background-color: #E68285;
+    cursor: pointer;
+}
+
+.inner,
+.inner1 {
+    background-color: #CCCCCC;
+}
+
+/* count */
+.count {
+    background-image: linear-gradient(rgba(220, 20, 60, .5) 0% 100%), url(./IMG/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.count h3 {
+    padding-block: 3.125rem;
+    padding-inline: 6.25rem;
+}
+
+/* contact */
+.contact a,
+.contact i,
+.contact p {
+    color: #777777;
+}
+
+.contact-icon {
+    width: 3.125rem;
+    height: 3.125rem;
+    border: #777777 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.contact-icon:hover {
+    background-color: #D62E33;
+    border-color: #D62E33;
+}
+
+.contact-icon:hover i {
+    color: #fff;
+}
+
+.contact .form-control,
+.contact .btn {
+    border-radius: unset;
+}
